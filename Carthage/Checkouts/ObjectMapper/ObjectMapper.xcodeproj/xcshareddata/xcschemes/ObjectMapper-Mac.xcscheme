@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,92 +14,94 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7809B2881CEC403C00109FAE"
-               BuildableName = "MRT_Ver_04.app"
-               BlueprintName = "MRT_Ver_04"
-               ReferencedContainer = "container:MRT_Ver_04.xcodeproj">
+               BlueprintIdentifier = "CD1602FE1AC023D5000CD69A"
+               BuildableName = "ObjectMapper.framework"
+               BlueprintName = "ObjectMapper-Mac"
+               ReferencedContainer = "container:ObjectMapper.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CD1603081AC023D6000CD69A"
+               BuildableName = "ObjectMapper-MacTests.xctest"
+               BlueprintName = "ObjectMapper-MacTests"
+               ReferencedContainer = "container:ObjectMapper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Release">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7809B29F1CEC403C00109FAE"
-               BuildableName = "MRT_Ver_04Tests.xctest"
-               BlueprintName = "MRT_Ver_04Tests"
-               ReferencedContainer = "container:MRT_Ver_04.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7809B2AA1CEC403C00109FAE"
-               BuildableName = "MRT_Ver_04UITests.xctest"
-               BlueprintName = "MRT_Ver_04UITests"
-               ReferencedContainer = "container:MRT_Ver_04.xcodeproj">
+               BlueprintIdentifier = "CD1603081AC023D6000CD69A"
+               BuildableName = "ObjectMapper-MacTests.xctest"
+               BlueprintName = "ObjectMapper-MacTests"
+               ReferencedContainer = "container:ObjectMapper.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7809B2881CEC403C00109FAE"
-            BuildableName = "MRT_Ver_04.app"
-            BlueprintName = "MRT_Ver_04"
-            ReferencedContainer = "container:MRT_Ver_04.xcodeproj">
+            BlueprintIdentifier = "CD1602FE1AC023D5000CD69A"
+            BuildableName = "ObjectMapper.framework"
+            BlueprintName = "ObjectMapper-Mac"
+            ReferencedContainer = "container:ObjectMapper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7809B2881CEC403C00109FAE"
-            BuildableName = "MRT_Ver_04.app"
-            BlueprintName = "MRT_Ver_04"
-            ReferencedContainer = "container:MRT_Ver_04.xcodeproj">
+            BlueprintIdentifier = "CD1602FE1AC023D5000CD69A"
+            BuildableName = "ObjectMapper.framework"
+            BlueprintName = "ObjectMapper-Mac"
+            ReferencedContainer = "container:ObjectMapper.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7809B2881CEC403C00109FAE"
-            BuildableName = "MRT_Ver_04.app"
-            BlueprintName = "MRT_Ver_04"
-            ReferencedContainer = "container:MRT_Ver_04.xcodeproj">
+            BlueprintIdentifier = "CD1602FE1AC023D5000CD69A"
+            BuildableName = "ObjectMapper.framework"
+            BlueprintName = "ObjectMapper-Mac"
+            ReferencedContainer = "container:ObjectMapper.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

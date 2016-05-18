@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		7809B28D1CEC403C00109FAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B28C1CEC403C00109FAE /* AppDelegate.swift */; };
-		7809B28F1CEC403C00109FAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B28E1CEC403C00109FAE /* ViewController.swift */; };
 		7809B2921CEC403C00109FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7809B2901CEC403C00109FAE /* Main.storyboard */; };
 		7809B2951CEC403C00109FAE /* MRT_Ver_04.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7809B2931CEC403C00109FAE /* MRT_Ver_04.xcdatamodeld */; };
 		7809B2971CEC403C00109FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7809B2961CEC403C00109FAE /* Assets.xcassets */; };
 		7809B29A1CEC403C00109FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7809B2981CEC403C00109FAE /* LaunchScreen.storyboard */; };
 		7809B2A51CEC403C00109FAE /* MRT_Ver_04Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B2A41CEC403C00109FAE /* MRT_Ver_04Tests.swift */; };
 		7809B2B01CEC403C00109FAE /* MRT_Ver_04UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B2AF1CEC403C00109FAE /* MRT_Ver_04UITests.swift */; };
+		7809B2BE1CEC408800109FAE /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 7809B2BD1CEC408800109FAE /* Cartfile */; };
+		7809B2C21CEC41DF00109FAE /* MRT.json in Resources */ = {isa = PBXBuildFile; fileRef = 7809B2C11CEC41DF00109FAE /* MRT.json */; };
+		7809B2C41CEC426300109FAE /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7809B2C31CEC426300109FAE /* ObjectMapper.framework */; };
+		7809B2C51CEC426300109FAE /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7809B2C31CEC426300109FAE /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7809B2CA1CEC488C00109FAE /* StationsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B2C91CEC488C00109FAE /* StationsData.swift */; };
+		7809B2CE1CEC4CE400109FAE /* StationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B2CD1CEC4CE400109FAE /* StationsListViewController.swift */; };
+		7809B2D01CEC4FAE00109FAE /* StationsListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B2CF1CEC4FAE00109FAE /* StationsListViewCell.swift */; };
+		7809B2D41CEC74CA00109FAE /* StationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B2D31CEC74CA00109FAE /* StationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +41,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7809B2C61CEC426300109FAE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7809B2C51CEC426300109FAE /* ObjectMapper.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		7809B2891CEC403C00109FAE /* MRT_Ver_04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRT_Ver_04.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7809B28C1CEC403C00109FAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7809B28E1CEC403C00109FAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7809B2911CEC403C00109FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7809B2941CEC403C00109FAE /* MRT_Ver_04.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MRT_Ver_04.xcdatamodel; sourceTree = "<group>"; };
 		7809B2961CEC403C00109FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +69,13 @@
 		7809B2AB1CEC403C00109FAE /* MRT_Ver_04UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRT_Ver_04UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7809B2AF1CEC403C00109FAE /* MRT_Ver_04UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRT_Ver_04UITests.swift; sourceTree = "<group>"; };
 		7809B2B11CEC403C00109FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7809B2BD1CEC408800109FAE /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		7809B2C11CEC41DF00109FAE /* MRT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MRT.json; sourceTree = SOURCE_ROOT; };
+		7809B2C31CEC426300109FAE /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		7809B2C91CEC488C00109FAE /* StationsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsData.swift; sourceTree = "<group>"; };
+		7809B2CD1CEC4CE400109FAE /* StationsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsListViewController.swift; sourceTree = "<group>"; };
+		7809B2CF1CEC4FAE00109FAE /* StationsListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsListViewCell.swift; sourceTree = "<group>"; };
+		7809B2D31CEC74CA00109FAE /* StationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StationViewController.swift; path = ../StationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7809B2C41CEC426300109FAE /* ObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +107,7 @@
 		7809B2801CEC403C00109FAE = {
 			isa = PBXGroup;
 			children = (
+				7809B2C31CEC426300109FAE /* ObjectMapper.framework */,
 				7809B28B1CEC403C00109FAE /* MRT_Ver_04 */,
 				7809B2A31CEC403C00109FAE /* MRT_Ver_04Tests */,
 				7809B2AE1CEC403C00109FAE /* MRT_Ver_04UITests */,
@@ -99,12 +128,17 @@
 		7809B28B1CEC403C00109FAE /* MRT_Ver_04 */ = {
 			isa = PBXGroup;
 			children = (
-				7809B28C1CEC403C00109FAE /* AppDelegate.swift */,
-				7809B28E1CEC403C00109FAE /* ViewController.swift */,
-				7809B2901CEC403C00109FAE /* Main.storyboard */,
 				7809B2961CEC403C00109FAE /* Assets.xcassets */,
 				7809B2981CEC403C00109FAE /* LaunchScreen.storyboard */,
+				7809B2901CEC403C00109FAE /* Main.storyboard */,
+				7809B28C1CEC403C00109FAE /* AppDelegate.swift */,
+				7809B2D31CEC74CA00109FAE /* StationViewController.swift */,
+				7809B2CD1CEC4CE400109FAE /* StationsListViewController.swift */,
+				7809B2CF1CEC4FAE00109FAE /* StationsListViewCell.swift */,
+				7809B2C91CEC488C00109FAE /* StationsData.swift */,
+				7809B2C11CEC41DF00109FAE /* MRT.json */,
 				7809B29B1CEC403C00109FAE /* Info.plist */,
+				7809B2BD1CEC408800109FAE /* Cartfile */,
 				7809B2931CEC403C00109FAE /* MRT_Ver_04.xcdatamodeld */,
 			);
 			path = MRT_Ver_04;
@@ -138,6 +172,7 @@
 				7809B2851CEC403C00109FAE /* Sources */,
 				7809B2861CEC403C00109FAE /* Frameworks */,
 				7809B2871CEC403C00109FAE /* Resources */,
+				7809B2C61CEC426300109FAE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +269,9 @@
 			files = (
 				7809B29A1CEC403C00109FAE /* LaunchScreen.storyboard in Resources */,
 				7809B2971CEC403C00109FAE /* Assets.xcassets in Resources */,
+				7809B2BE1CEC408800109FAE /* Cartfile in Resources */,
 				7809B2921CEC403C00109FAE /* Main.storyboard in Resources */,
+				7809B2C21CEC41DF00109FAE /* MRT.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7809B28F1CEC403C00109FAE /* ViewController.swift in Sources */,
 				7809B28D1CEC403C00109FAE /* AppDelegate.swift in Sources */,
+				7809B2CE1CEC4CE400109FAE /* StationsListViewController.swift in Sources */,
+				7809B2CA1CEC488C00109FAE /* StationsData.swift in Sources */,
+				7809B2D41CEC74CA00109FAE /* StationViewController.swift in Sources */,
 				7809B2951CEC403C00109FAE /* MRT_Ver_04.xcdatamodeld in Sources */,
+				7809B2D01CEC4FAE00109FAE /* StationsListViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +445,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MRT_Ver_04/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tw.edu.nccu.MRT-Ver-04";
@@ -416,6 +460,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MRT_Ver_04/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tw.edu.nccu.MRT-Ver-04";
